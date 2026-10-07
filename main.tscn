@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://46yl88lun7vk"]
+
+[sub_resource type="GDScript" id="GDScript_7dm0k"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="Main" type="Node2D" unique_id=662533725]
+
+[node name="ShiftManager" type="Node2D" parent="." unique_id=2134050730]
+
+[node name="Spawner" type="Node2D" parent="." unique_id=844181179]
+
+[node name="Station" type="Node2D" parent="." unique_id=884631579]
+script = SubResource("GDScript_7dm0k")
+
+[node name="PlayScreen" type="CanvasLayer" parent="." unique_id=1800887331]
+
+[node name="MainMenu" type="CanvasLayer" parent="." unique_id=732831836]

@@ -1,7 +1,5 @@
-﻿# Godot import cache
+﻿# Godot 4 import cache
 .godot/
-# Godot 3 import folder
-.import/
 # OS junk
 .DS_Store
 Thumbs.db
