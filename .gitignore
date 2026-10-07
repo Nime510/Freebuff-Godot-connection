@@ -1,6 +1,6 @@
 ﻿# Godot import cache
 .godot/
-# Godot 3 import folder (if applicable)
+# Godot 3 import folder
 .import/
 # OS junk
 .DS_Store
