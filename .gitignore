@@ -1,0 +1,7 @@
+﻿# Godot import cache
+.godot/
+# Godot 3 import folder (if applicable)
+.import/
+# OS junk
+.DS_Store
+Thumbs.db
